@@ -1,0 +1,239 @@
+{
+  "data": {
+    "report": {
+      "errors": [],
+      "reportAndData": {
+        "report": {
+          "name": "Data Visualization name-1727163696293",
+          "sourceType": "SH",
+          "sources": [
+            "1"
+          ],
+          "sourcesNames": [
+            "location_1"
+          ],
+          "periods": {
+            "edges": [
+              {
+                "node": {
+                  "period": "TM",
+                  "periodStart": "24-Sep-2024",
+                  "periodEnd": "24-Sep-2024",
+                  "enableCompare": false,
+                  "heatMapColor": "#FFFFFF",
+                  "steps": "DA",
+                  "compares": [
+                    {
+                      "compare": "SPECIFIC_DATE",
+                      "compareDate": "24-Sep-2024",
+                      "__typename": "ReportComparesField"
+                    }
+                  ],
+                  "__typename": "ReportPeriodType"
+                },
+                "__typename": "ReportPeriodTypeEdge"
+              }
+            ],
+            "__typename": "ReportPeriodTypeConnection"
+          },
+          "metricsArray": [
+            {
+              "metricPresentation": "B",
+              "metric": "IN",
+              "__typename": "ReportMetricType"
+            },
+            {
+              "metricPresentation": "B",
+              "metric": "OUT",
+              "__typename": "ReportMetricType"
+            }
+          ],
+          "comparePresentationType": "B",
+          "showDays": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "showMonths": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "showHoursFrom": "08:00:00",
+          "showHoursTo": "22:00:00",
+          "showGraph": true,
+          "rawData": true,
+          "tableVertical": false,
+          "includeOutputTotal": false,
+          "targetNumber": 0,
+          "showDiffInsteadOfIndex": false,
+          "targetEnabled": false,
+          "insideNonZero": false,
+          "__typename": "ReportNode"
+        },
+        "reportData": {
+          "maxPeriod": 0,
+          "periodsData": [
+            {
+              "capturedAndSalesData": {
+                "capturedData": [
+                  [
+                    {
+                      "date": "01-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "02-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "03-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "04-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "05-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "06-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "07-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "08-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "09-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "10-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "11-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "12-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "13-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "14-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "15-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "16-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "17-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "18-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 480
+                    },
+                    {
+                      "date": "19-Sep-2024",
+                      "inCount": 960,
+                      "outCount": 1440
+                    },
+                    {
+                      "date": "20-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "21-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "22-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "23-Sep-2024",
+                      "inCount": 240,
+                      "outCount": 240
+                    },
+                    {
+                      "date": "24-Sep-2024",
+                      "inCount": 162,
+                      "outCount": 162
+                    }
+                  ]
+                ],
+                "capturedCompare": [],
+                "salesData": [],
+                "salesCompare": [],
+                "type": "CapturedAndSalesData"
+              },
+              "periodDates": {
+                "start": "01-Sep-2024",
+                "end": "24-Sep-2024",
+                "__typename": "Period"
+              },
+              "comparesDates": [
+                "24-Sep-2024"
+              ],
+              "__typename": "ReportSinglePeriodType"
+            }
+          ],
+          "__typename": "ReportDataType"
+        },
+        "__typename": "ReportAndDataType"
+      },
+      "__typename": "report"
+    }
+  }
+}
